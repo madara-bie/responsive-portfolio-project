@@ -1,0 +1,82 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --main-color: #6e6d6d;
+    --accent-color: #ffceb9;
+    --text-color: rgb(187, 187, 187);
+    --shadow: rgba(37, 39, 89, 0.062) 0px 8px 8px 0;
+}
+
+/* ---------- NAVBAR STYLING ----------*/
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+/* ------- END OF NAVBAR STYLING ------*/
+
+.hero-p,
+h1,
+h2 {
+    text-align: center;
+    color: var(--main-color);
+}
+
+.hero-p,
+.hero-h2 {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.hero-p {
+    margin-top: 80px;
+}
+
+.hero-h1 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.hero-h2 {
+    margin-top: 15px;
+}
+
+/* ----------- HERO BUTTONS -----------*/
+/*-------------------------------------*/
+.main-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 80px auto 0 auto;
+    width: 38%;
+}
+
+.main-buttons a {
+    text-decoration: none;
+    width: 150px;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main-buttons a:hover {
+    font-size: 21px;
+    transition: all 0.3s ease;
+}
+
+.main-buttons span {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--accent-color);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+.main-buttons span:hover {
+    background-color: rgb(228, 189, 189);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
