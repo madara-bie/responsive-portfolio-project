@@ -29,7 +29,7 @@ h2 {
 }
 
 .hero-p {
-    margin-top: 80px;
+    margin: 80px auto 60px auto;
 }
 
 .hero-h1 {
@@ -39,6 +39,11 @@ h2 {
 
 .hero-h2 {
     margin-top: 15px;
+}
+
+p {
+    font-weight: 100;
+    color: var(--main-color);
 }
 
 /* ----------- HERO BUTTONS -----------*/
@@ -79,4 +84,11 @@ h2 {
     background-color: rgb(228, 189, 189);
     transition: all 0.3s ease;
     text-decoration: none;
+}
+
+.highlights-p p {
+    margin-bottom: 50px;
+}
+.hero-img img {
+    box-shadow: var(--shadow);
 }
