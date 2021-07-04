@@ -94,11 +94,10 @@ p {
     text-decoration: none;
 }
 
-.app-btn {
+.btn-primary {
     background-color: #fff;
     border: 5px;
     border-color: var(--accent-color);
-    color: var(--accent-color);
 }
 
 .highlights-p {
