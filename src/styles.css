@@ -94,6 +94,13 @@ p {
     text-decoration: none;
 }
 
+.app-btn {
+    background-color: #fff;
+    border: 5px;
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+}
+
 .highlights-p {
     margin: 100px auto 50px auto;
 }
