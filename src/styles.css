@@ -97,6 +97,6 @@ p {
 .highlights-p {
     margin: 100px auto 50px auto;
 }
-.hero-img img {
+.col-6 img {
     box-shadow: var(--shadow);
 }
