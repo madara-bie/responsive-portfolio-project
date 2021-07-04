@@ -51,6 +51,9 @@ p {
     color: var(--main-color);
 }
 
+span {
+    margin: 30px auto;
+}
 /* ----------- HERO BUTTONS -----------*/
 /*-------------------------------------*/
 .main-buttons {
