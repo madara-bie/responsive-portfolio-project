@@ -56,7 +56,8 @@ p {
 }
 /* ----------- HERO BUTTONS -----------*/
 /*-------------------------------------*/
-.btn-primary {
+.btn-primary,
+.btn-primary:focus {
     background-color: var(--accent-color);
 }
 
