@@ -87,7 +87,7 @@ p {
 }
 
 .highlights-p p {
-    margin-bottom: 50px;
+    margin: 100px auto 50px auto;
 }
 .hero-img img {
     box-shadow: var(--shadow);
