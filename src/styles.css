@@ -122,11 +122,12 @@ p {
         color: #fff;
         font-size: 18px;
         font-weight: 500;
+        margin-bottom: 20px;
     }
 }
 
 @media (max-width: 600px) {
-    .project-btn a {
+    .project-btn {
         margin-bottom: 20px;
     }
 }
