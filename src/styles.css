@@ -63,7 +63,7 @@ p {
 /*-------------------------------------*/
 .btn.btn-outline-primary,
 .btn.btn-outline-primar a {
-    border: 5px;
+    border: 10px;
     border-color: var(--accent-color);
     color: var(--accent-color);
 }
