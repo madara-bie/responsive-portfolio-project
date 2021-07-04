@@ -78,6 +78,8 @@ p {
 .main-buttons a:hover {
     font-size: 21px;
     transition: all 0.3s ease;
+    text-decoration: none;
+    color: #fff;
 }
 
 .main-buttons span {
@@ -99,6 +101,10 @@ p {
 }
 .col-md-6 img {
     box-shadow: var(--shadow);
+}
+
+.app-btn button {
+    background-color: var(--accent-color);
 }
 
 .source-code a {
