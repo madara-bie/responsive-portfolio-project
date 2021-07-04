@@ -97,7 +97,7 @@ p {
 .highlights-p {
     margin: 100px auto 50px auto;
 }
-.col-6 img {
+.col-md-6 img {
     box-shadow: var(--shadow);
 }
 
@@ -105,4 +105,16 @@ p {
     color: var(--main-color);
     text-decoration: none;
     text-align: center;
+}
+
+@media (max-width: 576px) {
+    .main-buttons a {
+        width: 50px;
+        height: 30px;
+        text-align: center;
+        padding-top: 10px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+    }
 }
