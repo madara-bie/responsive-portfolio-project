@@ -63,13 +63,15 @@ p {
 /*-------------------------------------*/
 .btn.btn-outline-primary,
 .btn.btn-outline-primar a {
-    border: 10px;
+    border-width: 10px;
+    width: 120px;
     border-color: var(--accent-color);
     color: var(--accent-color);
 }
 .btn.btn-outline-primary:hover {
     background-color: var(--accent-color);
     color: #fff;
+    border-color: transparent;
 }
 
 .main-buttons {
