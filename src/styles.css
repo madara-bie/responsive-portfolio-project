@@ -126,7 +126,7 @@ p {
 }
 
 @media (max-width: 600px) {
-    .project-btn {
+    .main-buttons span {
         margin-bottom: 20px;
     }
 }
