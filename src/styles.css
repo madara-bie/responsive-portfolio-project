@@ -15,7 +15,7 @@
     position: fixed;
     width: 100%;
 }
-.navbar-light .navbar-brand {
+.navbar-brand a {
     color: #fff;
 }
 /* ------- END OF NAVBAR STYLING ------*/
@@ -61,9 +61,15 @@ p {
 }
 /* ----------- HERO BUTTONS -----------*/
 /*-------------------------------------*/
-.btn-primary,
-.btn-primary:focus {
+.btn.btn-outline-primary,
+.btn.btn-outline-primar a {
+    border: 5px;
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+}
+.btn.btn-outline-primary:hover {
     background-color: var(--accent-color);
+    color: #fff;
 }
 
 .main-buttons {
