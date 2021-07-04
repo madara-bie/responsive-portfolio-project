@@ -94,15 +94,14 @@ p {
     text-decoration: none;
 }
 
-.btn-primary {
-    background-color: #fff;
-    border: 5px;
-    border-color: var(--accent-color);
-}
-
 .highlights-p {
     margin: 100px auto 50px auto;
 }
 .col-6 img {
     box-shadow: var(--shadow);
+}
+
+.source-code a {
+    text-decoration: none;
+    text-align: center;
 }
