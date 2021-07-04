@@ -72,6 +72,7 @@ p {
     background-color: var(--accent-color);
     color: #fff;
     border-color: transparent;
+    transition: all 0.3s ease;
 }
 
 .main-buttons {
