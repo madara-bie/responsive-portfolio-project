@@ -112,14 +112,12 @@ p {
 .main-buttons .about {
     background-color: #fff;
     color: var(--accent-color);
+    border-radius: 10px;
+    border-color: var(--accent-color);
+    border-width: 3px;
     box-shadow: var(--shadow);
 }
 
-.about a {
-    border-width: 3px;
-    border-radius: 10px;
-    border-color: var(--accent-color);
-}
 .main-buttons span:hover {
     background-color: rgb(228, 189, 189);
     transition: all 0.3s ease;
