@@ -112,13 +112,10 @@ p {
 .main-buttons .about {
     background-color: #fff;
     color: var(--accent-color);
-    box-shadow: var(--shadow);
-}
-
-.main-buttons .about a {
     border-width: 3px;
     border-radius: 10px;
     border-color: var(--accent-color);
+    box-shadow: var(--shadow);
 }
 
 .main-buttons span:hover {
