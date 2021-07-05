@@ -34,7 +34,7 @@ h3 {
 
 h4 {
     font-weight: 100;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 p {
@@ -157,6 +157,9 @@ p {
     box-shadow: none;
 }
 
+.about-content span {
+    margin-right: 100px;
+}
 
 /* ------- END OF ABOUT PAGE ------- */
 
