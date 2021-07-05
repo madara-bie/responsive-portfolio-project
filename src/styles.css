@@ -109,6 +109,13 @@ p {
     box-shadow: var(--shadow);
 }
 
+.main-buttons .about {
+    background-color: #fff;
+    border-radius: 10px;
+    border-color: var(--accent-color);
+    box-shadow: var(--shadow);
+}
+
 .main-buttons span:hover {
     background-color: rgb(228, 189, 189);
     transition: all 0.3s ease;
