@@ -54,6 +54,7 @@ h3 {
 p {
     font-weight: 100;
     color: var(--main-color);
+    font-size: 25px;
 }
 
 .col-md-6 {
