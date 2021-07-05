@@ -155,10 +155,11 @@ p {
     width: 220px;
     height: auto;
     box-shadow: none;
+    margin: 40px auto auto 80px;
 }
 
 .about-content span {
-    margin-right: 100px;
+    margin-right: 100px auto auto 100px;
 }
 
 /* ------- END OF ABOUT PAGE ------- */
