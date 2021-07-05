@@ -116,10 +116,6 @@ p {
     box-shadow: var(--shadow);
 }
 
-.main-buttons .about a {
-    border-width: 2px;
-}
-
 .main-buttons span:hover {
     background-color: rgb(228, 189, 189);
     transition: all 0.4s ease;
