@@ -116,7 +116,7 @@ p {
     box-shadow: var(--shadow);
 }
 
-.about span a {
+.main-buttons .about a {
     border-width: 2px;
 }
 
