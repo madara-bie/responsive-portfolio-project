@@ -158,7 +158,7 @@ p {
     margin: 40px auto auto 80px;
 }
 
-.about-content span {
+.col-md-6 .about-content span {
     margin-right: 100px auto auto 100px;
 }
 
