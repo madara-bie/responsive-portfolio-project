@@ -141,6 +141,11 @@ p {
     text-align: center;
 }
 
+/* ------- ABOUT PAGE ------- */
+.h1-about {
+    color: red;
+}
+
 @media (max-width: 600px) {
     .main-buttons {
         display: flex;
