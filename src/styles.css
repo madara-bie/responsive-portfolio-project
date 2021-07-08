@@ -4,7 +4,7 @@
 
 :root {
     --main-color: #6e6d6d;
-    --accent-color: #ffceb9;
+    --accent-color: #f8bea6;
     --text-color: rgb(187, 187, 187);
     --shadow: rgba(37, 39, 89, 0.062) 0px 8px 8px 0;
 }
@@ -38,7 +38,7 @@ h4 {
 }
 
 p {
-    font-weight: 100;
+    font-weight: 300;
     color: var(--main-color);
     font-size: 18px;
     line-height: 2rem;
@@ -48,7 +48,7 @@ p {
 .hero-p,
 .hero-h2 {
     font-size: 25px;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .hero-p {
@@ -158,9 +158,19 @@ p {
     margin: 40px auto auto 80px;
 }
 
-.col-md-6 .about-content span {
-    margin-right: 100px auto auto 100px;
+.about-content {
+    margin-left: 120px;
 }
+
+.portrait-img {
+    margin: 70 auto auto auto;
+    width: 35%;
+}
+
+.about-project-btn {
+    margin-top: 0;
+}
+
 
 /* ------- END OF ABOUT PAGE ------- */
 
