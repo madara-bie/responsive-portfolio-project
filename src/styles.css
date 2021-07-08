@@ -6,7 +6,7 @@
     --main-color: #6e6d6d;
     --accent-color: #f8bea6;
     --text-color: rgb(187, 187, 187);
-    --shadow: rgba(37, 39, 89, 0.062) 0px 8px 8px 0;
+    --shadow: rgba(29, 30, 68, 0.151) 0px 8px 8px 0;
 }
 
 /* ---------- NAVBAR STYLING ----------*/
@@ -65,7 +65,7 @@ p {
 }
 
 .col-md-6 {
-    margin: 100px auto;
+    margin: 50px auto;
 }
 /* ----------- HERO BUTTONS -----------*/
 /*-------------------------------------*/
@@ -112,9 +112,17 @@ p {
 .main-buttons span {
     display: flex;
     justify-content: space-evenly;
+}
+.main-buttons .project-btn {
     background-color: var(--accent-color);
     border-radius: 10px;
     box-shadow: var(--shadow);
+}
+
+.main-buttons .project-btn:hover {
+    background-color: rgb(228, 189, 189);
+    transition: all 0.4s ease;
+    text-decoration: none;
 }
 
 .main-buttons .about {
@@ -122,12 +130,7 @@ p {
     color: var(--accent-color);
     border-radius: 10px;
     box-shadow: var(--shadow);
-}
-
-.main-buttons span:hover {
-    background-color: rgb(228, 189, 189);
-    transition: all 0.4s ease;
-    text-decoration: none;
+    border-width: 5px;
 }
 
 .main-buttons .about:hover {
@@ -155,15 +158,15 @@ p {
     width: 220px;
     height: auto;
     box-shadow: none;
-    margin: 40px auto auto 80px;
 }
 
 .about-content {
     margin-left: 120px;
+    margin-top: 100px;
 }
 
 .portrait-img {
-    margin: 70 auto auto auto;
+    margin: 130px auto auto auto;
     width: 35%;
 }
 
@@ -174,27 +177,43 @@ p {
 
 /* ------- END OF ABOUT PAGE ------- */
 
-
 @media (max-width: 600px) {
-    .main-buttons {
-        display: flex;
-        flex-direction: column;
-    }
-}
+    
 
-@media (max-width: 600px) {
-    .main-buttons a {
-        width: 100px;
-        height: 60px;
-        text-align: center;
-        color: #fff;
-        font-size: 18px;
-        font-weight: 500;
-    }
-}
-
-@media (max-width: 600px) {
     .main-buttons span {
         margin-bottom: 20px;
     }
+    .main-buttons {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .main-buttons .about {
+        background-color: #fff;
+        color: var(--accent-color);
+        border-radius: 10px;
+        box-shadow: var(--shadow);
+    }
+
+    .col-md-6 {
+        margin-top: 40px;
+    }
+    
+    .col-md-6 p,
+    h3,
+    h4 {
+        text-align: center;
+    }
+    .portrait-img {
+        display: none;
+    }
+    .about-content {
+        width: 400px;
+        margin: 100px auto 0 auto;
+    }
+    h4 {
+        font-size: 40px;
+    }
+
 }
+
