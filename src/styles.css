@@ -36,6 +36,12 @@ h4 {
     font-weight: 100;
     font-size: 45px;
 }
+h5 {
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    line-height: 3rem;
+}
 
 p {
     font-weight: 300;
@@ -237,9 +243,16 @@ hr {
     border-radius: 5px;
 }
 
-
-
 /*---------END OF DRAWINGS PAGE----------*/
+
+/*----------------CONTACTS---------------*/
+/*---------------------------------------*/
+
+.h5-contacts {
+    margin-top: 60px;
+}
+
+/*------------END OF CONTACT PAGE--------*/
 
 @media (max-width: 600px) {
     
