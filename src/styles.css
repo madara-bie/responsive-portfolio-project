@@ -76,8 +76,10 @@ p {
 
 .comment {
     color: var(--main-color);
-    opacity: 70%;
+    opacity: 50%;
 }
+
+
 /* ----------- HERO BUTTONS -----------*/
 /*-------------------------------------*/
 .btn.btn-outline-primary,
@@ -219,7 +221,7 @@ hr {
 .web-img {
     width: 99%;
     display: block;
-    margin: 40px auto 10px auto;
+    margin: 0 auto 5px auto;
     transition: all 0.3s ease;
 }
 
