@@ -227,6 +227,20 @@ hr {
 
 /*-----------END OF WEB PROJECTS---------*/
 
+/*-----------DRAWINGS PAGE---------------*/
+/*---------------------------------------*/
+
+.drawings-img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+
+
+/*---------END OF DRAWINGS PAGE----------*/
+
 @media (max-width: 600px) {
     
 
