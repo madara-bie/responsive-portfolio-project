@@ -67,16 +67,23 @@ p {
 .col-md-6 {
     margin: 50px auto;
 }
+
+.comment {
+    color: var(--main-color);
+    opacity: 70%;
+}
 /* ----------- HERO BUTTONS -----------*/
 /*-------------------------------------*/
 .btn.btn-outline-primary,
-.btn.btn-outline-primar a {
+.btn.btn-outline-primary a {
     border-width: 2px;
     width: 120px;
     border-color: var(--accent-color);
     color: var(--accent-color);
+    text-decoration: none;
 }
-.btn.btn-outline-primary:hover {
+.btn.btn-outline-primary:hover,
+.btn.btn-outline-primary a:hover  {
     background-color: var(--accent-color);
     color: #fff;
     border-color: transparent;
@@ -134,13 +141,13 @@ p {
 }
 
 .main-buttons .about:hover {
-    background-color: rgb(240, 235, 235);
+    background-color: rgb(224, 223, 223);
     box-shadow: var(--shadow);
     transition: all 0.4s ease;
 }
 
 .highlights-p {
-    margin: 100px auto 0 auto;
+    margin: 150px auto 0 auto;
 }
 .col-md-6 img {
     box-shadow: var(--shadow);
@@ -180,8 +187,34 @@ p {
 
 /* ------- WEB PROJECTS PAGE ------- */
 /*----------------------------------*/
+.col-12 {
+    margin: 80px auto 0 auto;
+}
 
+.col-12 h4,
+.col-12 p {
+    text-align: center;
+}
+.web-content {
+    width: 70%;
+}
+.break-line {
+    display: block;
+    margin: 80px auto 0 auto;
+    width: 15%;
+}
+hr {
+    margin: 40px auto 0 auto;
+    background-color: var(--accent-color);
+    border: 1.5px solid var(--accent-color);
+    opacity: 1;
+}
 
+.web-img {
+    width: 100%;
+    display: block;
+    margin: 40px auto 10px auto;
+}
 
 /*-----------END OF WEB PROJECTS---------*/
 
