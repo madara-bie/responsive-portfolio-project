@@ -211,9 +211,18 @@ hr {
 }
 
 .web-img {
-    width: 100%;
+    width: 99%;
     display: block;
     margin: 40px auto 10px auto;
+    transition: all 0.3s ease;
+}
+
+.web-img:hover {
+    width: 100%;
+}
+
+.other-works-btn {
+    margin: 80px auto 100px auto;
 }
 
 /*-----------END OF WEB PROJECTS---------*/
