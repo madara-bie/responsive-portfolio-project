@@ -134,7 +134,7 @@ p {
 }
 
 .main-buttons .about:hover {
-    background-color: rgb(228, 189, 189);
+    background-color: rgb(240, 235, 235);
     box-shadow: var(--shadow);
     transition: all 0.4s ease;
 }
@@ -176,6 +176,14 @@ p {
 
 
 /* ------- END OF ABOUT PAGE ------- */
+
+
+/* ------- WEB PROJECTS PAGE ------- */
+/*----------------------------------*/
+
+
+
+/*-----------END OF WEB PROJECTS---------*/
 
 @media (max-width: 600px) {
     
