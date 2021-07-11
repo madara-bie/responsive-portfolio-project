@@ -261,16 +261,50 @@ hr {
 /*------------END OF CONTACT PAGE--------*/
 
 @media (max-width: 500px) {
+    .btn.btn-outline-primary,
+    .btn.btn-outline-primary a {
+        border-width: 2px;
+        width: 80px;
+    }
+
+    .project-btn {
+        margin-bottom: 10px;;
+    }
+    .main-buttons span {
+        width: 120px;
+    }
+
     .hero-img {
         display: none;
     }
+    .hero-h1 {
+        font-size: 30px;
+    }
+    .hero-h2 {
+        font-size: 22px;
+    }
+    .h3 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .row .about-content {
+        width: 90%;
+    }
 }
 @media (max-width: 600px) {
-    
+    h4 {
+        margin: 70px auto 10px auto;
+        font-size: 30px;
+    }
     .btn.btn-outline-primary {
         display: block;
         margin: 0 auto;
     }
+  
     .main-buttons span {
         margin: 0 auto 10px auto;
     }
@@ -315,9 +349,7 @@ hr {
         width: 400px;
         margin: 100px auto 0 auto;
     }
-    h4 {
-        font-size: 40px;
-    }
+
 
 }
 
@@ -354,6 +386,21 @@ hr {
 @media (max-width: 1366px) {
     .hero-img img {
         width: 100%;
+    }
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+    .portrait-img img {
+        display: block;
+        margin: 0 auto;
+    }
+    .about-project-btn span {
+        margin: 40px auto auto auto;
+    }
+    .about-content h4 {
+        margin-top: 80px;
     }
 }
 
