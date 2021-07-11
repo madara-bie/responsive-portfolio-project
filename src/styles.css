@@ -260,6 +260,15 @@ hr {
 
 /*------------END OF CONTACT PAGE--------*/
 
+footer {
+    margin: 60px auto 20px auto;
+    text-align: center;
+    display: block;
+}
+.contact-icons a {
+    margin: auto 5px;
+}
+
 @media (max-width: 500px) {
     .btn.btn-outline-primary,
     .btn.btn-outline-primary a {
