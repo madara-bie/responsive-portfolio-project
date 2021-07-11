@@ -81,6 +81,7 @@ p {
 }
 
 
+
 /* ----------- HERO BUTTONS -----------*/
 /*-------------------------------------*/
 .btn.btn-outline-primary,
@@ -168,13 +169,11 @@ p {
     text-align: center;
 }
 
-/* ---------- ABOUT PAGE ----------- */
-
 .col-md-6 img {
-    width: 220px;
-    height: auto;
-    box-shadow: none;
+    width: 500px;
 }
+
+/* ---------- ABOUT PAGE ----------- */
 
 .about-content {
     margin: 100px auto 20px 120px;
@@ -183,6 +182,11 @@ p {
 .portrait-img {
     margin: 200px auto auto auto;
     width: 35%;
+}
+.portrait-img img {
+    width: 220px;
+    height: auto;
+    box-shadow: none;
 }
 
 .about-project-btn {
@@ -256,16 +260,24 @@ hr {
 
 /*------------END OF CONTACT PAGE--------*/
 
+@media (max-width: 500px) {
+    .hero-img {
+        display: none;
+    }
+}
 @media (max-width: 600px) {
     
-
+    .btn.btn-outline-primary {
+        display: block;
+        margin: 0 auto;
+    }
     .main-buttons span {
-        margin-bottom: 20px;
+        margin: 0 auto 10px auto;
     }
     .main-buttons {
         display: flex;
         flex-direction: column;
-        margin-top: 30px;
+        margin: 40px auto 0 auto;
     }
     .main-buttons .about {
         background-color: #fff;
@@ -274,8 +286,21 @@ hr {
         box-shadow: var(--shadow);
     }
 
+    .hero-p {
+        margin-top: 20px;
+    }
+
+    .index-img img {
+        display: block;
+        width: 80px;
+    }
+
     .col-md-6 {
-        margin-top: 40px;
+        margin: 20px auto 0 auto;
+    }
+
+    .hero-img img {
+        display: none;
     }
     
     .col-md-6 p,
@@ -294,5 +319,41 @@ hr {
         font-size: 40px;
     }
 
+}
+
+@media (max-width: 1024px) {
+    .main-buttons span {
+        margin: 0 10px 0 auto;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .col-md-6 {
+        margin: 20px auto;
+        width: 80%;
+    }
+    .col-md-6 span {
+        width: 100%;
+    }
+
+    .hero-p {
+        margin-top: 80px;
+    }
+    .hero-img img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .source-code a {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1366px) {
+    .hero-img img {
+        width: 100%;
+    }
 }
 
