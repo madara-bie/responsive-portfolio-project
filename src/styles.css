@@ -243,7 +243,7 @@ hr {
 /*---------------------------------------*/
 
 .drawings-img {
-    width: 70%;
+    width: 75%;
     display: block;
     margin: 0 auto;
     border-radius: 5px;
@@ -269,6 +269,9 @@ footer {
     margin: auto 5px;
 }
 
+/*--------------------------------------------------------*/
+/*------------------MEDIA QUERY---------------------------*/
+
 @media (max-width: 500px) {
     .btn.btn-outline-primary,
     .btn.btn-outline-primary a {
@@ -282,7 +285,6 @@ footer {
     .main-buttons span {
         width: 120px;
     }
-
     .hero-img {
         display: none;
     }
@@ -291,11 +293,11 @@ footer {
     }
     .hero-h2 {
         font-size: 22px;
+        margin-bottom: 50px;
     }
     .h3 {
         font-size: 22px;
     }
-
     p {
         font-size: 14px;
         line-height: 1.5;
@@ -303,12 +305,22 @@ footer {
     .row .about-content {
         width: 90%;
     }
+    .about-content h4 {
+        margin-top: 20px;
+    }
+    .web-content {
+        margin-top: 30px;
+    }
+    .break-line {
+        margin-top: -10px;
+    }
+    .contact-header {
+        margin-top: 90px;
+    }
+
 }
 @media (max-width: 600px) {
-    h4 {
-        margin: 70px auto 10px auto;
-        font-size: 30px;
-    }
+    
     .btn.btn-outline-primary {
         display: block;
         margin: 0 auto;
@@ -320,7 +332,7 @@ footer {
     .main-buttons {
         display: flex;
         flex-direction: column;
-        margin: 40px auto 0 auto;
+        margin: 0 auto 40px auto;
     }
     .main-buttons .about {
         background-color: #fff;
@@ -328,7 +340,10 @@ footer {
         border-radius: 10px;
         box-shadow: var(--shadow);
     }
-
+    h4 {
+        margin: 70px auto 10px auto;
+        font-size: 30px;
+    }
     .hero-p {
         margin-top: 20px;
     }
@@ -341,25 +356,29 @@ footer {
     .col-md-6 {
         margin: 20px auto 0 auto;
     }
-
-    .hero-img img {
-        display: none;
-    }
-    
     .col-md-6 p,
     h3,
     h4 {
         text-align: center;
     }
+
+    .hero-img img {
+        display: none;
+    }
+    
     .portrait-img {
         display: none;
     }
     .about-content {
         width: 400px;
-        margin: 100px auto 0 auto;
+        margin: 80px auto 0 auto;
     }
-
-
+    .contact-header h4 {
+        margin-top: 0;
+    }
+    .contact-header .h5-contacts {
+        font-size: 25px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -400,16 +419,23 @@ footer {
         display: flex;
         flex-direction: column;
         width: 60%;
+        margin: 80px auto 0 auto;
     }
+    .row .portrait-img,
     .portrait-img img {
         display: block;
-        margin: 0 auto;
+        margin: 30px auto 0 auto;
     }
+
     .about-project-btn span {
         margin: 40px auto auto auto;
     }
-    .about-content h4 {
-        margin-top: 80px;
+
+    .h5-contacts {
+        font-size: 22px;
+
     }
+
+
 }
 
