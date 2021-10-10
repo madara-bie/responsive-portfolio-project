@@ -227,6 +227,7 @@ hr {
     display: block;
     margin: 0 auto 5px auto;
     transition: all 0.3s ease;
+    border-radius: 5px;
 }
 
 .web-img:hover {
